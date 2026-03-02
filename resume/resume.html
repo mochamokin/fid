@@ -15,9 +15,11 @@
   font-style: normal;
     }
     body {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
-        background: silver;
+        background: #ffff;
         color: black;
     }
     header {
@@ -26,7 +28,7 @@
     h1 {
         font-family: "Emilys Candy", serif;
         font-size: xx-large;
-        text-align: left;
+        text-align: center;
         background-color: #55CDFC;
     }
     h2 {
@@ -35,10 +37,12 @@
         text-align: left;
         background-color: #F7A8B8;
     }
+    .p-1 {
+        text-align: center;
+    }
     img{
         max-width: 300px;
         max-height: 300px;
-        justify-content: center;
     }
     footer img {
         max-width: 100px;
@@ -48,6 +52,7 @@
         margin: 0;
         padding: 0;
         display: flex;
+        justify-content: center;
     }
     footer li {
         list-style: none;
@@ -67,14 +72,14 @@
 <section>
     <h1>My Biography!</h1>
     <h2>
-        For several years I pursued a degree in environmental science before covid claimed my motivation. 
+        <p class="p-1">For several years I pursued a degree in environmental science before covid claimed my motivation. 
         With the impact it had my direction changed and I saw an opportunity to leave an impact a different way. 
         Stories have been a passion of mine since childhood. Now I want to create them.
-        So, I began learning various aspects of digital art. Focused on creating comics, animations, and games.
+        So, I began learning various aspects of digital art. Focused on creating comics, animations, and games.</p>
     </h2>
 </section>
 
-<section h1>
+<section>
     <h1>What I Do~</h1>
     
     <h2>
@@ -91,7 +96,7 @@
 
 </section>
 
-<section h2>
+<section>
     <h1>Things I Use~</h1>
     
     <h2>
@@ -109,30 +114,32 @@
 
 </section>
 
-<section h3>
+<section>
     <h1>What I Made~</h1>
 
     <h2>
+        <p>Final Sketches</p>
+        <a href="images/Cats.png"><img src="images/Cats.png" alt="catsketches"></a><a href="images/Birds.png"><img src="images/Birds.png" alt="images/Birds.png" alt="birdsketches"></a>
         <p>Character Art</p>
-        <a href="images/MokinProfile.png"><img src="images/MokinProfile.png"></a><a href="images/ProfilePicCut.png"><img src="images/ProfilePicCut.png"></a>
+        <a href="images/MokinProfile.png"><img src="images/MokinProfile.png" alt="threefourportrait"></a><a href="images/ProfilePicCut.png"><img src="images/ProfilePicCut.png" alt="alteredportrait"></a><a href="images/ComicCover.png"><img src="images/ComicCover.png" alt="comiccover"></a>
         <p>3D Modeling</p>
-        <a href="images/BarrelRender2.png"><img src="images/BarrelRender2.png"></a><a href="images/Lighttube.png"><img src="images/Lighttube.png"></a>
+        <a href="images/BarrelRender2.png"><img src="images/BarrelRender2.png" alt="barrelrender"></a><a href="images/Lighttube.png"><img src="images/Lighttube.png" alt="lighttuberender"></a>
     </h2>
 </section>
 
 </body>
 
 <footer>
-<section h4>
+<section>
     <h1>Where I Am~</h1>
 
     <h2>
-    <ul class="hyperlinks">
+    <ul>
         <li><p><a href="https://bsky.app/profile/mochamokin.bsky.social"><img src="images/Bluesky_Logo.svg" alt="bluesky"></a></p></li>
         <li><p><a href="https://github.com/mochamokin"><img src="images/github-icon.svg" alt="github"></a></p></li>
     </ul>
     </h2>
-    <p><a href="https://mochamokin.github.io/fid">[Back to Repo]</a></p>
+    <p class="p-1"><a href="https://mochamokin.github.io/fid">[Back to Repo]</a></p>
 
 </section>
 </footer>
