@@ -4,3 +4,4 @@
 <p><a href="glossary.html">View Glossary</a></p>
 <p><a href="bistro/inline.html">Bistro Inline</a></p>
 <p><a href="resume/resume.html">Portfolio</a></p>
+<p><a href="tables/shipyard.html">Table</a></p>
