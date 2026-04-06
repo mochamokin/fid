@@ -58,8 +58,7 @@
         list-style: none;
     }
     .preview {
-        display: flex;
-        flex-wrap: wrap;
+        display: flexbox;
         gap: auto;
         margin-top: auto;
     }
@@ -67,7 +66,7 @@
         max-width: 300px;
         max-height: 300px;
         object-fit: cover;
-        border-radius: 15px;
+        border-radius: 1px;
         transition: transform 0.3 ease;
     }
     .preview a img:hover {
@@ -121,12 +120,23 @@
     <h1>What I Made~</h1>
 
     <h2>
+        <div class="preview">
         <p>Final Sketches</p>
-        <a href="images/Cats.png"><img src="images/Cats.png" alt="catsketches"></a><a href="images/Birds.png"><img src="images/Birds.png" alt="birdsketches"></a>
+            <a href="catsketches.html">
+                <img src="images/Cats.png" alt="catsketches"></a>
+            <a href="birdsketches.html">
+                <img src="images/Birds.png" alt="birdsketches"></a>
         <p>Character Art</p>
-        <a href="images/MokinProfile.png"><img src="images/MokinProfile.png" alt="threefourportrait"></a><a href="images/ProfilePicCut.png"><img src="images/ProfilePicCut.png" alt="alteredportrait"></a><a href="images/ComicCover.png"><img src="images/ComicCover.png" alt="comiccover"></a>
+            <a href="mokin.html">
+                <img src="images/MokinProfile.png" alt="threefourportrait"></a>
+            <a href="comic.html">
+                <img src="images/ComicCover.png" alt="comiccover"></a>
         <p>3D Modeling</p>
-        <a href="images/BarrelRender2.png"><img src="images/BarrelRender2.png" alt="barrelrender"></a><a href="images/Lighttube.png"><img src="images/Lighttube.png" alt="lighttuberender"></a>
+            <a href="barrel.html">
+                <img src="images/BarrelRender2.png" alt="barrelrender"></a>
+            <a href="lighttube.html">
+                <img src="images/Lighttube.png" alt="lighttuberender"></a>
+        </div>
     </h2>
 
 <footer>
