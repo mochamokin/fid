@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    width: 100%;
+    color: black;
+    background: #55CDFC;
+    background: linear-gradient(90deg,rgba(85, 205, 252, 1) 0%, rgba(247, 168, 184, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(247, 168, 184, 1) 75%, rgba(85, 205, 252, 1) 100%);
+}
+header {
+    text-align: center
+}
+h1 {
+    font-family: "Emilys Candy", serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #55CDFC;
+    border-style: double;
+    border-color: #F7A8B8;
+    border-width: 10px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: left;
+    background-color: #F7A8B8;
+    border-style: double;
+    border-color: #55CDFC;
+    border-width: 10px;
+    padding: 3px 10px;
+}
+img{
+    
+    max-width: 1000px;
+    max-height: 1000px;
+}
+footer img {
+    max-width: 100px;
+    max-height: 100px;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    list-style: none;
+}
+.preview {
+    margin-top: auto;
+}
+.preview a img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 1px;
+    transition: transform 0.3 ease;
+}
+.preview a img:hover {
+    transform: scale(1.1);
+}
